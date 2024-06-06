@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="72.624" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login_Test" name="This is  a test  for the login feature" time="25.502">
+<system-out><![CDATA[
+Given Kullanici Amazon URL Gider............................................passed
+When Kullanici Giris Yapin Sekmesine Tiklar.................................passed
+When Kullanici Giris Yap Sayfasini Gorur....................................passed
+When Kullanici E-posta veya Telefon Alanina Bilgileri Girer.................passed
+When Kullanici Devam Et Butonuna Tiklar.....................................passed
+When Kullanici Sifre Alanına Bilgilerini Girer..............................passed
+When Kullanici Giris Yap Butonuna Tiklar....................................passed
+When Kullanici Login Oldugunu Dogrular......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login_Test" name="This is a test  for the Add to Cart" time="27.223">
+<system-out><![CDATA[
+Given Kullanici Search Alanina Skechers Erkek Ayakkabisi yazar..............passed
+When Kullanici Search Butonuna Tiklar.......................................passed
+When Kullanici Sonuclar Sayfasında Urunleri Gorur...........................passed
+When Kullanici Herhangi Bir Ayakkabi Secimi Yapar...........................passed
+When Kullanici Numara Secimi Yapar..........................................passed
+When Kullanici Sepete Ekle Butonuna Tıklar..................................passed
+And Kullanici Ekledigi Urunu Sepette Gorur..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login_Test" name="This is a test  for the Add to Address" time="19.652">
+<system-out><![CDATA[
+Given Kullanici Alisverisi Tamamla Butonuna Tiklar..........................passed
+When Kullanici Odeme Sayfasinda Oldugunu Gorur..............................passed
+When Kullanici Sisteme Kayitli Adreslerden Secim yapar......................passed
+When Kullanici Gumrukleme icin Simdilik Atla Butonunu Tiklar................passed
+And Kullanici Gumrukleme Icin Devam Et Butonuna Tiklar......................passed
+And Kullanici Kredi karti veya banka karti ekleyin Linkine Tiklar...........passed
+]]></system-out>
+</testcase>
+</testsuite>
